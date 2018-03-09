@@ -1,3 +1,7 @@
 # file: ~/.gitignore_global
 .DS_Store
 .idea
+
+# ignore dataset
+testing_data.csv
+training_data.csv
