@@ -3,5 +3,4 @@
 .idea
 
 # ignore dataset
-testing_data.csv
-training_data.csv
+*.csv
