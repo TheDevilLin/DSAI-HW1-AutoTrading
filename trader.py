@@ -31,7 +31,7 @@ def solve(classifier, train_test):
     sell = 0
     buy = 0
     output = []
-    # Importing the dataset
+    # Importing the dataset of testing
     dataset_real = pd.read_csv(args.testing, names=["Open", "High", "Low", "Close"])
     dataset_real = dataset_real.values
 
