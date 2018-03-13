@@ -69,9 +69,10 @@ def solve(classifier, train_test):
                 output = np.append(output, 0)
     else:
         if (stock == 1):
-            price_real = dataset_real[-1][0]
-            money += price_real
+            price_close = dataset_real[-1][3]
+            money += price_close
             stock = 0
+    print(money)
     np.savetxt(args.output, output, delimiter=",", fmt='%1.f')
 
 
